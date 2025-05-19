@@ -9,7 +9,7 @@
 		if (!textToSummarize.trim()) return;
 
 		try {
-			const request = await fetch("http://localhost:5173/api/generate", {
+			const request = await fetch("http://localhost:5173/api/trio-textsum", {
 				method: "POST",
 				headers: {
 					"Content-Type": "application/json",
